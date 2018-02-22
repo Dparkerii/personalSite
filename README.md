@@ -13,4 +13,4 @@ To use:
 yarn install
 yarn start
 ```
-This will start just the front end, and has no database connected.  For that navigate to [backend](https://www.github.com)
+This will start just the front end, and has no database connected.  For that navigate to [backend](https://github.com/Dparkerii/personalSiteBackend)
