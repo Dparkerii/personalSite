@@ -1,0 +1,39 @@
+title: Making this site
+slug: making-this-site
+content: "
+    Overview:
+        At this time I am a recent graduate from university in my first job as a front end developer.
+    I built this site to practice skills I use on my job and to showcase various projects I do in my free time.
+    For this site I started by choosing what overall package, aka starter kit, I would use, knowing javascript has an insane amount of libraries.
+    Overall I chose to use a MERN stack, mainly as practice again for job.  This is a static site so using react may be overkill.
+
+    Structure:
+        app --|
+            front--|
+                src--|
+                    assets--|
+                    components--|
+                    pages--|
+                    index.tsx
+                    registerServiceWorker.ts
+                public--/
+                node_modules--/
+                package.json
+                tsconfig.json
+                tsconfig.test.json
+                tslint.json
+            back--|
+    Front:
+        I started with the front end, that was done using create-react-app <app name> --scripts-version=react-scripts-ts
+        Start with what you want the site to do, this site just reads data from a database then renders it in a pretty way.
+        Nothing special, just a CRUD app.
+    Back:
+        Whole different beast
+        get postman
+        once postman works your api is fine, accessing it is wrong
+            postman is not a browser and can cause differences
+    Connecting:
+        express returns an async response, .then(convert to json).then(return stuff) frontend
+    Maintenance:
+        admin page to do CRUD for various pages
+"
